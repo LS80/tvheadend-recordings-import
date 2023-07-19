@@ -7,7 +7,6 @@ import json
 import os
 import pathlib
 import re
-import sys
 import urllib.parse
 import urllib.request
 
