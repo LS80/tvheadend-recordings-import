@@ -92,5 +92,5 @@ if __name__ == '__main__':
                         help='port number for HTTP API')
     args = parser.parse_args()
 
-    for recording_data in recordings(args.path, args.date_limit, args.output_path):
-        create_entry(recording_data, args.host, args.port)
+    for recording in recordings(args.path, args.date_limit, args.output_path):
+        create_entry(recording, args.host, args.port)
